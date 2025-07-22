@@ -53,5 +53,46 @@ Date: 2025-07-21
 
 ---
 
+## 🗓️ Date: July 22, 2025
+
+---
+
+## ✅ Major Takeaways from Today’s Work
+
+### 1. Separation of Frontend and Backend
+
+- **Problem:** Previously, data was communicated via `.jsp` files (HTML-based), which tightly coupled the frontend and backend.
+- **Solution:** Implemented **RESTful APIs** in Spring Boot to serve data in **JSON format**, making the backend reusable and frontend-independent.
+
+---
+
+### 2. API Testing with Postman
+
+- Learned to use **Postman** for testing backend endpoints.
+- Verified `GET`, `POST`, `PUT`, and `DELETE` operations using JSON payloads.
+
+---
+
+### 3. Cross-Origin Communication
+
+- Applied `@CrossOrigin` annotation in Spring Boot controllers.
+- Enabled frontend (React) to access backend APIs without CORS issues.
+
+---
+
+### 4. React for Frontend
+
+- Started using **React** as the frontend framework.
+- Connected React UI to Spring Boot backend using REST APIs.
+
+---
+
+## 💡 Summary
+
+Today focused on modernizing the architecture:
+- Shifted from JSP-based views to React + REST APIs.
+- Improved frontend-backend separation.
+- Gained hands-on experience with Postman and cross-origin configuration.
+
 *End of notes.*
 
