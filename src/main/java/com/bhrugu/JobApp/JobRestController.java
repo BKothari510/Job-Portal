@@ -25,5 +25,10 @@ public class JobRestController {
         return service.getJob(postId);
     }
 
+    @PostMapping("jobPost")
+    public void addJob(@RequestBody JobPost jobPost){
+        service.addJob(jobPost);
+    }
+
 }
 
